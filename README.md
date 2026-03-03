@@ -8,14 +8,17 @@ GitHub：[Mellon980](https://github.com/Mellon980)
 - 语言：Java / Python
 - 按「年份/月份」归档，方便复习
 
+
 ## 📂 目录结构
+```
 leetcode-daily/
-├── README.md # 项目说明文档
-├── push.bat # Windows 一键上传脚本
-└── 2026/ # 按年份归档
-└── 03/ # 按月份归档
-├── 20260303-two-sum.java
-└── 20260304-add-two-numbers.py
+├── README.md               # 项目说明文档
+├── push.bat                # Windows 一键上传脚本
+└── 2026/                   # 2026年刷题归档
+    └── 03/                 # 3月份刷题归档
+        ├── 20260303-two-sum.java      # 两数之和题解(Java)
+        └── 20260304-add-two-numbers.py # 两数相加题解(Python)
+```
 
 ## 📌 提交规范
 - **文件名**：`日期-题目名称.后缀`  
