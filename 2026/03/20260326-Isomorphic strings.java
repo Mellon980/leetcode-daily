@@ -1,10 +1,10 @@
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        Map<Character,Character> map1=new hashMap<>();
-        Map<Character,Character> map2=new hashMap<>();
-        for(int i=0,j=0;i<s.length();i++,j++;){
+        Map<Character,Character> map1=new HashMap<>();
+        Map<Character,Character> map2=new HashMap<>();
+        for(int i=0,j=0;i<s.length();i++,j++){
             char charS=s.charAt(i);
-            char charT=t.cahrAt(j);
+            char charT=t.charAt(j);
             if(!map1.containsKey(charS)){
                 map1.put(charS,charT);
             }
