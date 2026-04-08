@@ -20,7 +20,7 @@ class Solution {
         }    
 
             if(!placed){
-                ansList.add(newInterval);
+                ansList.add(new int[]{left,right});
             }
             int[][]ans=new int[ansList.size()][2];
             for(int i=0;i<ansList.size();i++){
